@@ -26,9 +26,11 @@ Let's talk about vulnerabilities
 
    [Read more](https://medium.com/valixconsulting/solidity-smart-contract-security-by-example-04-cross-function-reentrancy-de9cbce0558e)
 
-5. `Cross-Contract`: 🌐🔀
+5. **`Cross-Contract`**: 🌐🔀
    This occurs when reentrance occurs between different Solidity contracts. For example, one contract may call a function in another contract, which in turn calls back the first function before it has finished execution. This can allow an attacker to exploit vulnerabilities in a third-party contract to gain access to unwanted resources.
 
    [Read more](https://medium.com/valixconsulting/solidity-smart-contract-security-by-example-05-cross-contract-reentrancy-30f29e2a01b9)
 
 It's important to take these vulnerabilities into account when designing and developing smart contracts in Solidity, to ensure the security🔒🔐 and robustesse🏋️🏋️ of your decentralized application.
+
+ [🔙](https://github.com/orgs/ChainShareLabs/repositories)
